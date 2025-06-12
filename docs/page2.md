@@ -102,4 +102,4 @@ Poniżej znajdziesz przykładowy rysunek jednorogowaca TM do przetestowania w pl
 
 ---
 
-Na kolejnej stronie ([Dostępne zwierzęta](page3.md)) znajdziesz pełną galerię wszystkich dostępnych zwierzaków.
+Na kolejnej stronie (“Postaci” ```TU WSTAW ODNOSNIK DO TWOJEJ MARCEL```) znajdziesz pełną galerię wszystkich dostępnych zwierzaków.
