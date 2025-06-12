@@ -49,4 +49,5 @@ Po zainstalowaniu `cowsay` można go też używać bezpośrednio w terminalu.
 Na przykład, aby dodać „język” do naszej gadającej krowy, skorzystaj z flagi `-t`:
 
 ```bash
-cowsay -t "muuu" #co tu jest źle???
+cowsay -t "muuu" 
+```
