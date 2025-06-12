@@ -18,7 +18,11 @@ document.addEventListener("DOMContentLoaded", function() {
     "MUUU AUAUAUA",
     "żaba w betoniarce?",
     "Muuuaa! MUMUMUUUU!!!",
-    "Dasz Pan zaliczenie muuu??"
+    "Dasz Pan zaliczenie muuu??",
+    "Pij mleko, będziesz wielki",
+    "Rura na miasteczko",
+    "Chemiczaku młody, nie lej kwasu do wody",
+    "Duma Myszkowa"
   ];
 
   // budujemy elementy
