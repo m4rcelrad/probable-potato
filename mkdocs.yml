@@ -1,13 +1,17 @@
 site_name: Python Cowsay Tutorial
 
+
+extra_css:
+    - css/float-cow.css
+extra_javascript:
+    - js/float-cow.js
+
+
 theme:
   name: material  
   logo: images/krowo_ikonka.png
   favicon: images/krowo_ikonka.png
-  extra_css:
-    - css/float-cow.css
-  extra_javascript:
-    - js/float-cow.js
+  
   features:
     - navigation.tabs
     - navigation.sections
