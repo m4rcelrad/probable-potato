@@ -17,9 +17,4 @@ Cowsay to zabawne narzędzie wiersza poleceń, które generuje ASCII-artowe obra
                           ||----w |
                           ||     ||
 ```
-## Instalacja
 
-Aby zainstalować pakiet należy wywołać w wierszu poleceń komendę
-```text
-pip install cowsay
-```
