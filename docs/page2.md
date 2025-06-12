@@ -65,7 +65,32 @@ with open('my_custom_art.txt', 'r') as f:
 
 draw("Własna postać mówi!", my_art)
 ```
+Poniżej znajdziesz przykładowy rysunek jednorogowaca TM do przetestowania w pliku \`my_custom_art.txt\`:
 
+```text
+           \
+            \\
+             \\
+              >\/7
+          _.-(6'  \
+         (=___._/` \
+              )  \ |
+             /   / |
+            /    > /
+           j    < _\
+       _.-' :      ``.
+       \ r=._\        `.
+      <`\\_  \         .`-.
+       \ r-7  `-. ._  ' .  `\
+        \`,      `-.`7  7)   )
+         \/         \|  \'  / `-._
+                    ||    .'
+                     \\  (
+                      >\  >
+                  ,.-' >.'
+                 <.'_.''
+                   <'
+```
 ---
 
 ## 5. Przydatne funkcje i atrybuty
