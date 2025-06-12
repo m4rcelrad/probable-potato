@@ -2,6 +2,8 @@ site_name: Python Cowsay Tutorial
 
 theme:
   name: material  
+  logo: images/krowo_ikonka.png
+  favicon: images/krowo_ikonka.png
   features:
     - navigation.tabs
     - navigation.sections
