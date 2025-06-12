@@ -1,7 +1,7 @@
 # MUUUwienie PRO
 
 
-W tej podstronie zagłębimy się w dodatkowe możliwości biblioteki **cowsay**, w szczególności w temat dostępnych „postaci” (zwierzaków) i sposobów ich wyboru. Same ASCII-arty umieścimy na osobnej stronie **Postaci**.
+W tej podstronie zagłębimy się w dodatkowe możliwości biblioteki **cowsay**, w szczególności w temat dostępnych „postaci” (zwierzaków) i sposobów ich wyboru. Same ASCII-arty umieścimy na osobnej stronie **Dostępne zwierzęta**.
 
 ---
 
@@ -42,7 +42,22 @@ print(dragon_func(message))
 ---
 
 ## 3. Użycie w CLI
-W terminalu wystarczy dodać flagę -f (lub --cowfile) z nazwą postaci:
+Poniżej krótki opis poszczególnych opcji dostępnych w CLI `cowsay`:
+
+- **-h, --help**  
+  Wyświetla pomoc wiersza poleceń i kończy działanie programu.
+
+- **-c CHARACTER, --character CHARACTER**  
+  Wybiera postać (ASCII-art), która ma wypowiedzieć tekst. Możesz użyć jednej z dostępnych nazw postaci (np. `dragon`, `tux`).
+
+- **-t TEXT, --text TEXT**  
+  Ustawia tekst, który zostanie wyświetlony w dymku mowy.
+
+- **-v, --version**  
+  Wyświetla numer wersji programu i kończy działanie.
+
+
+W terminalu wystarczy dodać flagę -c (lub --character) z nazwą postaci:
 
 ```bash
 # dragon mówi "Muu PRO"
