@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Strona startowa
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Pełna dokumentacja: [pypi.org/project/python-cowsay](https://pypi.org/project/python-cowsay/).
 
-## Commands
+## Czym jest Cowsay?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Cowsay to zabawne narzędzie wiersza poleceń, które generuje ASCII-artowe obrazki krowy (lub innych zwierząt) mówiącej podany tekst. Pierwotnie stworzone dla Unix/Linux, stało się kultowym elementem kultury programistycznej.
+```text
+  ___________________
+| Prosze o zaliczenie |
+  ===================
+                   \
+                    \
+                      ^__^
+                      (oo)\_______
+                      (__)\       )\/\
+                          ||----w |
+                          ||     ||
+```
+## Instalacja
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Aby zainstalować pakiet należy wywołać w wierszu poleceń komendę
+```text
+pip install cowsay
+```
