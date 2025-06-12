@@ -5,7 +5,7 @@ W tej podstronie zagłębimy się w dodatkowe możliwości biblioteki **cowsay**
 
 ---
 
-## Lista dostępnych postaci
+## 1. Lista dostępnych postaci
 
 Aby zobaczyć, jakie postaci możesz wykorzystać zamiast domyślnej krowy:
 
@@ -22,7 +22,7 @@ Uwaga: Pełną listę nazw i odpowiadające im ASCII-arty znajdziesz na stronie 
 
 ---
 
-## Wybór postaci w kodzie Python
+## 2. Wybór postaci w kodzie Python
 Możesz podać nazwę postaci do funkcji ```cowsay.get_output_string()``` lub skorzystać bezpośrednio z mapy ```char_funcs```:
 
 ```python
@@ -41,7 +41,7 @@ print(dragon_func(message))
 
 ---
 
-## Użycie w CLI
+## 3. Użycie w CLI
 W terminalu wystarczy dodać flagę -f (lub --cowfile) z nazwą postaci:
 
 ```bash
@@ -54,7 +54,7 @@ cowsay -c tux -t "Cześć od Tux'a!"
 
 ---
 
-## Własne ASCII-arty
+## 4. Własne ASCII-arty
 Jeśli masz swój plik ASCII-art, możesz go wykorzystać tak:
 
 ```python
@@ -94,7 +94,7 @@ Poniżej znajdziesz przykładowy rysunek jednorogowaca TM do przetestowania w pl
 ```
 ---
 
-## Przydatne funkcje i atrybuty
+## 5. Przydatne funkcje i atrybuty
 
 - **\`cowsay.char_names\`** — lista nazw wszystkich wbudowanych postaci.  
 - **\`cowsay.char_funcs\`** — słownik \`nazwa → funkcja\`, generujący dany ASCII-art.  
