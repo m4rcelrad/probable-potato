@@ -20,7 +20,7 @@ print(f"Liczba postaci: {len(cowsay.char_names)}")
 Uwaga: Pełną listę nazw i odpowiadające im ASCII-arty znajdziesz na stronie Postaci.
 
 # 2. Wybór postaci w kodzie Python
-Możesz podać nazwę postaci do funkcji cowsay.get_output_string() lub skorzystać bezpośrednio z mapy char_funcs:
+Możesz podać nazwę postaci do funkcji ```cowsay.get_output_string()``` lub skorzystać bezpośrednio z mapy ```char_funcs```:
 
 ```python
 import cowsay
@@ -40,12 +40,11 @@ print(dragon_func(message))
 W terminalu wystarczy dodać flagę -f (lub --cowfile) z nazwą postaci:
 
 ```bash
-Skopiuj kod
 # dragon mówi "Muu PRO"
-cowsay -f dragon "Muu PRO"
+cowsay -c dragon -t "Muu PRO"
 
 # tux wita się z użytkownikiem
-cowsay --cowfile tux "Cześć od Tux'a!"
+cowsay -c tux -t "Cześć od Tux'a!"
 ```
 
 4. Własne ASCII-arty
