@@ -1,4 +1,4 @@
-# Strona 1: Generowanie gadającej krowy
+# Generowanie gadającej krowy
 
 W tej sekcji omówimy najprostszy przykład: generowanie gadającej krowy z biblioteki `cowsay`.
 
@@ -9,7 +9,7 @@ W tej sekcji omówimy najprostszy przykład: generowanie gadającej krowy z bibl
 
 ## Kod przykładowy
 
-Utwórz plik `intro.py` obok tej strony z następującą zawartością:
+Utwórz plik `muuu.py` obok tej strony z następującą zawartością:
 
 ```python
 import cowsay
@@ -43,3 +43,10 @@ python intro.py
                                 ||----w |
                                 ||     ||
 ```
+## Zabawa w konsoli
+
+Po zainstalowaniu `cowsay` można go też używać bezpośrednio w terminalu.  
+Na przykład, aby dodać „język” do naszej gadającej krowy, skorzystaj z flagi `-t`:
+
+```bash
+cowsay -t "muuu"
