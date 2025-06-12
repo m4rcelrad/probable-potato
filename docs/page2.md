@@ -4,7 +4,7 @@ W tej podstronie zagłębimy się w dodatkowe możliwości biblioteki **cowsay**
 
 ---
 
-# 1. Lista dostępnych postaci
+## 1. Lista dostępnych postaci
 
 Aby zobaczyć, jakie postaci możesz wykorzystać zamiast domyślnej krowy:
 
@@ -19,7 +19,9 @@ print(f"Liczba postaci: {len(cowsay.char_names)}")
 ```
 Uwaga: Pełną listę nazw i odpowiadające im ASCII-arty znajdziesz na stronie Postaci.
 
-# 2. Wybór postaci w kodzie Python
+---
+
+## 2. Wybór postaci w kodzie Python
 Możesz podać nazwę postaci do funkcji ```cowsay.get_output_string()``` lub skorzystać bezpośrednio z mapy ```char_funcs```:
 
 ```python
@@ -36,7 +38,9 @@ dragon_func = cowsay.char_funcs['dragon']
 print(dragon_func(message))
 ```
 
-# 3. Użycie w CLI
+---
+
+## 3. Użycie w CLI
 W terminalu wystarczy dodać flagę -f (lub --cowfile) z nazwą postaci:
 
 ```bash
@@ -47,7 +51,9 @@ cowsay -c dragon -t "Muu PRO"
 cowsay -c tux -t "Cześć od Tux'a!"
 ```
 
-4. Własne ASCII-arty
+---
+
+## 4. Własne ASCII-arty
 Jeśli masz swój plik ASCII-art, możesz go wykorzystać tak:
 
 ```python
@@ -59,14 +65,16 @@ with open('my_custom_art.txt', 'r') as f:
 
 draw("Własna postać mówi!", my_art)
 ```
-5. Przydatne funkcje i atrybuty
 
-```cowsay.char_names``` – lista nazw wszystkich wbudowanych postaci.
+---
 
-```cowsay.char_funcs``` – słownik nazwa → funkcja, generujący dany ASCII-art.
+## 5. Przydatne funkcje i atrybuty
 
-```cowsay.get_output_string(name, text)``` – zwraca wynik jako string (do dalszej obróbki).
+- **\`cowsay.char_names\`** — lista nazw wszystkich wbudowanych postaci.  
+- **\`cowsay.char_funcs\`** — słownik \`nazwa → funkcja\`, generujący dany ASCII-art.  
+- **\`cowsay.get_output_string(name, text)\`** — zwraca wynik jako string (do dalszej obróbki).  
+- **\`cowsay.draw(text, ascii_art)\`** — pozwala podać dowolny ASCII-art oraz tekst.
 
-```cowsay.draw(text, ascii_art)``` – pozwala podać dowolny ASCII-art oraz tekst.
+---
 
 Na kolejnej stronie (“Postaci”) znajdziesz pełną galerię wszystkich dostępnych zwierzaków.
