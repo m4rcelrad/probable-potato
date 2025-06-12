@@ -40,10 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
   function showBubble() {
     const msg = messages[Math.floor(Math.random() * messages.length)];
     const len = msg.length;
-    const top    = " " + "_".repeat(len + 2);
-    const mid    = `| ${msg} |`;
-    const bottom = " " + "-".repeat(len + 2);
-
+    const pad = " ".repeat(4);              // ← tu ustawiasz odsunięcie dymka
+    const top    = " " + pad + "_".repeat(len+2);
+    const mid    = pad + `| ${msg} |`;
+    const bottom = " " + pad + "-".repeat(len+2);
+    cow.textContent = [top, mid, bottom, asciiCow].join("\n");
     // łączymy dymek i krowę
     cow.textContent = [top, mid, bottom, asciiCow].join("\n");
   }
