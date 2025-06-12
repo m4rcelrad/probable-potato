@@ -73,7 +73,6 @@ cowsay -c tux -t "Cześć od Tux'a!"
 Jeśli masz swój plik ASCII-art, możesz go wykorzystać tak:
 
 ```python
-Skopiuj kod
 from cowsay import draw
 
 with open('my_custom_art.txt', 'r') as f:
