@@ -12,6 +12,20 @@ theme:
   logo: images/krowo_ikonka.png
   favicon: images/krowo_ikonka.png
   
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Tryb jasny
+      primary: indigo
+      accent: blue
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Tryb ciemny
+      primary: deep purple
+      accent: light blue
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,19 +37,7 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: pl
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Tryb ciemny
-      primary: deep purple  
-      accent: light blue
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Tryb jasny
-      primary: indigo 
-      accent: blue
+
 
 copyright: |
   &copy; 2025 <br><a href="https://github.com/m4rcelrad"  target="_blank" rel="noopener">Marcel Radwański</a><br>
