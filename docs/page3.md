@@ -442,3 +442,13 @@ Maskotka Linuksa, funkcjonująca jako oficjalne logo. Nie wiadomo dokładnie dla
         /'\_   _/`\
         \___)=(___/
 ```
+# Jak sprawdzić jakie postacie mamy do wyboru?
+
+Wystarczy w terminalu wpisać `cowsay -h` lub `cowsay --help`
+
+Wyświetli się między innymi lista dostępnych postaci:
+```
+CLI tool to display text in ASCII art. Available Characters: ['beavis', 'cheese', 'cow', 'daemon', 'dragon', 'fox',
+'ghostbusters', 'kitty', 'meow', 'miki', 'milk', 'octopus', 'pig', 'stegosaurus', 'stimpy', 'trex', 'turkey',
+'turtle', 'tux']
+```
