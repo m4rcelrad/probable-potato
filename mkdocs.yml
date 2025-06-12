@@ -1,0 +1,19 @@
+site_name: Python Cowsay Tutorial
+
+theme:
+  name: darkly  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pl
+
+copyright: |
+  &copy; 2025 <br><a href="https://github.com/m4rcelrad"  target="_blank" rel="noopener">Marcel Radwański</a><br>
+  <a href="https://github.com/Z1AJA"  target="_blank" rel="noopener">Szymon Ziajski</a>
