@@ -3,14 +3,16 @@
 ## Asciimatics
 
 [Asciimatics](https://pypi.org/project/asciimatics/) to biblioteka Pythona, która pozwala na tworzenie interaktywnych aplikacji graficznych w terminalu. Umożliwia ona wyświetlanie animacji, grafik i interakcję z użytkownikiem przy użyciu tekstu ASCII (ASCII art), co pozwala na uruchomienie programów graficznych w miejscach, gdzie nie ma dostępu do grafiki (np. w konsoli, na serwerach bez GUI).
+![Asciimatics](images\asciimatics.png)
 
 ## PyFiglet
 
 [PyFiglet](https://pypi.org/project/pyfiglet/) to biblioteka generująca efektowne napisy w stylu ASCII-art, inspirowana narzędziem FIGlet. Pozwala ona na tworzenie dużych, ozdobnych tekstów używających znaków ASCII, które mogą być wykorzystane w terminalu jako nagłówki, loga lub po prostu dla zabawy. Obsługuje różne czcionki, dzięki czemu można dostosować wygląd tekstu.
-
+![PyFiglet](images\pyfiglet.png)
 ## Art
 
 [Art](https://pypi.org/project/art/) to uniwersalna biblioteka ASCII-art, która potrafi generować nie tylko ozdobne napisy (jak PyFiglet), ale także rysunki, symbole, a nawet konwertować tekst w stylu "zalgo" (przesadnie ozdobiony). Jest łatwa w użyciu i oferuje wiele stylów do wyboru.
+![Art](images\art.png)
 
 ## TerminalImageViewer
 
