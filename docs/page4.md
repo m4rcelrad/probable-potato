@@ -3,7 +3,7 @@
 ## Asciimatics
 
 [Asciimatics](https://pypi.org/project/asciimatics/) to biblioteka Pythona, która pozwala na tworzenie interaktywnych aplikacji graficznych w terminalu. Umożliwia ona wyświetlanie animacji, grafik i interakcję z użytkownikiem przy użyciu tekstu ASCII (ASCII art), co pozwala na uruchomienie programów graficznych w miejscach, gdzie nie ma dostępu do grafiki (np. w konsoli, na serwerach bez GUI).
-![Asciimatics](images\asciimatics.png)
+[![Asciimatics](images\asciimatics.png)](https://asciinema.org/a/18756?autoplay=1)
 
 ## PyFiglet
 
